@@ -1,0 +1,50 @@
+@font-face {
+    font-family: Sugiyama;
+    src: url('DrSugiyama-Regular.ttf');
+}
+body {
+    background-color: rgb(75, 83, 92);
+    text-align: center;
+    height: 100vh;
+}
+
+.Main-Nav {
+    margin: 10px 0 20px 0;
+    border: 3px solid rgb(31, 31, 57);
+    border-radius: 13px;
+    padding: 5px;
+    background-color: rgb(54, 73, 67);
+}
+
+button {
+    border-radius: 5px;
+    border-color: rgb(190, 205, 204);
+    padding: 4px 15px;
+}
+
+#todo-list {
+    color: rgb(236, 236, 236);
+    font-size: 17px;
+}
+
+footer {
+    position: absolute;
+    bottom: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37, 196, 208);
+}
+
+span {
+    position: relative;
+    font-family: sugiyama;
+    font-size: 30px;
+    bottom: -3px;
+    color: blanchedalmond;
+    border-bottom: 1px solid ;
+    
+}
+
+input {
+    border-radius: 5px;
+    padding: 4px 15px;
+}
